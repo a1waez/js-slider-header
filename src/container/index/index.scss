@@ -112,12 +112,12 @@
 
 	&__bottom {
 		padding: 24px 0;
-		// border-bottom: 1px solid #dee2e6;
+		border-bottom: 1px solid #dee2e6;
 	} 
 
 	&__wrapper {
 		overflow: hidden;
 		transition: height 0.7s;
-		// height: 0px;
+		height: 0px;
 	}
 }

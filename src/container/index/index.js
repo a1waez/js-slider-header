@@ -83,14 +83,14 @@ class Header {
 
   static #toggle = () => {
     if (this.#isOpen) {
-      this.#button.classList.replase(
+      this.#button.classList.replace(
         'header__button--close',
         'header__button--open',
       )
 
       this.#wrapper.style.height = 0
     } else {
-      this.#button.classList.replase(
+      this.#button.classList.replace(
         'header__button--open',
         'header__button--close',
       )
